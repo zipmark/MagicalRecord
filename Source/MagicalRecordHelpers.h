@@ -63,5 +63,5 @@ UIColor * UIColorFromString(NSString *serializedColor);
 NSColor * NSColorFromString(NSString *serializedColor);
 
 #endif
-id (*ColorFromString)(NSString *);
+extern id (*ColorFromString)(NSString *);
 

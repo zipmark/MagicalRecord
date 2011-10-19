@@ -5,6 +5,9 @@
 //  Copyright 2010 Magical Panda Software, LLC All rights reserved.
 //
 
+// enable macro definitions needed in cleanUp
+#define MR_SHORTHAND 1
+
 #import "CoreData+MagicalRecord.h"
 
 static id errorHandlerTarget = nil;
